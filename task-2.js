@@ -26,3 +26,19 @@ console.log(formatMessage("Vestibulum facilisis purus nec", 20)); // "Vestibulum
 console.log(formatMessage("Vestibulum facilisis purus nec", 30)); // "Vestibulum facilisis purus nec"
 console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15)); // "Nunc sed turpis..."
 console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); // "Nunc sed turpis a felis in nunc fringilla"
+
+/*✅ 2. Завдання вирішено правильно
+
+Проблема була вирішена правильно, критичних помилок немає.
+
+Добре виконані моменти:
+
+Хороший вибір назв змінних, які точно описують, що міститься в змінній.
+Гарне форматування коду, що робить код легким для читання.
+Ви також надали тестові варіанти, що є чудовим для перевірки того, як функція працює за очікуванням.
+Покращення:
+
+Хоча функція працює правильно, для стандартності бажано видалити зайві пробіли. Наприклад, використовуйте message.slice(0, maxLength) замість message.slice(0, maxLength ).
+Також вважається гарною практикою вилучити else після оператору return всередині оператора if, оскільки оператор return призводить до виходу з функції, що робить блок else непотрібним. Це може допомогти зменшити рівень вкладеності і зробити код більш чистим.
+Завдання прийнято з рекомендаціями для не критичних покращень.
+*/
